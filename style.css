@@ -1,15 +1,17 @@
 body{
-    background: #c5c5a7 url('../img/bg.jpeg') no-repeat right top;
-    margin: 0;
+    background: #c5c5a7 url('../img/bg.jpeg') no-repeat center top;
+    margin-top: 0;
 }
 .nav{
-background: blue
+background: black;
 }
 .items{
-    background: brown
+    background: rgb(10, 10, 10);
 }
 .item{
-    background: coral
+    background: rgb(17, 15, 15);
+    display: inline; 
+    margin: 50px;
 }
 .class{
     border-style: dashed;
@@ -19,12 +21,50 @@ background: blue
     border-radius: 20px;
     margin: 23px 67px 56px 0;
     margin: auto;
-    padding: 25px;
-    width: 50%;
-    height: 50px;
+    padding: 10px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    width: 10%;
+    height: 40px;
     outline: 4px solid black;
     text-align: center;
     /* word-spacing: 
     text-shadow: 
     direction:  */
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+a:hover{
+    background: rgb(247, 249, 252);
+    color: black;
+    font-size: 1.5em;
+}
+a:active{
+    font-size: 1.5em;
+}
+.first{
+    background: red;
+    height: 20px;
+    width: 20%;
+    display: inline-block;
+    float: right;
+}
+.second{
+    background: blue;
+    height: 20px;
+    width: 20%;
+}
+.myflex{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.myflex >div{
+    background: red;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    margin: 8px;
 }
