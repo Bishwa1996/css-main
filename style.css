@@ -1,0 +1,30 @@
+body{
+    background: #c5c5a7 url('../img/bg.jpeg') no-repeat right top;
+    margin: 0;
+}
+.nav{
+background: blue
+}
+.items{
+    background: brown
+}
+.item{
+    background: coral
+}
+.class{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: red;
+    border: 5px solid green;
+    border-radius: 20px;
+    margin: 23px 67px 56px 0;
+    margin: auto;
+    padding: 25px;
+    width: 50%;
+    height: 50px;
+    outline: 4px solid black;
+    text-align: center;
+    /* word-spacing: 
+    text-shadow: 
+    direction:  */
+}
